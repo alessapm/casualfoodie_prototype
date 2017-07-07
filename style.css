@@ -1,0 +1,37 @@
+body {
+  margin: 40px;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+header {
+  text-align: center;
+}
+
+h1 {
+  color: #DD23D8;
+  font-family: 'Raleway', sans-serif;
+  font-size: 3.5em;
+  font-weight: lighter;
+  margin-bottom: 0;
+}
+
+h2 {
+  color: #9E9E9E;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 1.2em;
+}
+
+#foodie-logo {
+  height: 120px;
+  margin-left: 30px;
+  margin-bottom: 15px;
+}
+
+nav {
+  height: 70px;
+  width: 100%;
+  border-top: 1px solid #9E9E9E;
+  border-bottom: 1px solid #9E9E9E;
+}
+
