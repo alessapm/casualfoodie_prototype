@@ -4,4 +4,4 @@
 
 This is a HTML/CSS prototype for a food blog landing page. 
 
-View [here](https://alessapm.github.io/casualfoodie-prototype/)
+View [here](https://alessapm.github.io/casualfoodie_prototype/)
