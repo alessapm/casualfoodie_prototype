@@ -1,10 +1,14 @@
 body {
-  margin: 40px;
-  margin-right: 100px;
-  margin-left: 100px;
+  margin-top: 40px;
   color: #9E9E9E;
   font-family: 'Open Sans Condensed', sans-serif;
   background-color: #FFFFFF;
+  width: 100%;
+}
+
+main {
+  margin-right: 100px;
+  margin-left: 100px;
 }
 
 header {
@@ -21,6 +25,7 @@ h1 {
 
 h2 {
   font-size: 2em;
+  /*cursor: pointer;*/
 }
 
 .about {
@@ -82,5 +87,28 @@ li:hover {
   font-size: .9em;
   font-weight: bold;
   cursor: pointer;
+  transition: all .5s ease;
 }
 
+.read-more:hover {
+  color: #FFFFFF;
+  background-color: #DD23D8;
+}
+
+footer {
+  border-top: 1px solid #DD23D8;
+  height: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer a {
+  text-decoration: none;
+  color: #DD23D8;
+  font-size: .8em;
+}
+
+footer a:hover {
+  color: #9E9E9E;
+}
